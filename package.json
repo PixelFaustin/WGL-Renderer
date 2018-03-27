@@ -2,7 +2,7 @@
   "name": "wgl-renderer",
   "version": "1.0.0",
   "description": "Generic 3D WebGL Renderer",
-  "main": "Device.js",
+  "main": "dist/wgl-renderer.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
