@@ -1,0 +1,56 @@
+{
+  "name": "wgl-renderer",
+  "version": "1.0.0",
+  "description": "Generic 3D WebGL Renderer",
+  "main": "Device.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PixelFaustin/WGL-Renderer.git"
+  },
+  "keywords": [
+    "webgl",
+    "renderer",
+    "graphics",
+    "3d"
+  ],
+  "author": "Austin McKenna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PixelFaustin/WGL-Renderer/issues"
+  },
+  "homepage": "https://github.com/PixelFaustin/WGL-Renderer#readme",
+  "dependencies": {
+    "babel-plugin-dynamic-import-webpack": "^1.0.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-register": "^6.26.0",
+    "gl-matrix": "^2.4.0",
+    "webgl-obj-loader": "^1.1.3",
+    "webpack": "^4.3.0",
+    "webpack-dev-middleware": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "6.24.1",
+    "babel-eslint": "7.2.3",
+    "babel-loader": "7.0.0",
+    "babel-plugin-dynamic-import-node": "1.0.2",
+    "babel-plugin-syntax-dynamic-import": "6.18.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.24.1",
+    "babel-preset-env": "1.5.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "15.0.1",
+    "eslint-config-prettier": "2.1.1",
+    "eslint-loader": "1.7.1",
+    "eslint-plugin-import": "2.3.0",
+    "eslint-plugin-jsx-a11y": "5.0.3",
+    "eslint-plugin-prettier": "2.1.1",
+    "prettier": "1.3.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "2.4.5"
+  }
+}
